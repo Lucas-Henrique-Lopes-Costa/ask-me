@@ -3,7 +3,7 @@ import os
 import time
 from googlesearch import search
 
-os.system('cls') or None
+os.system('clear') or None
 
 # Conhecendo o Usuário
 nome = input('Ola, será que você poderia me dizer o seu nome completo?\n')
@@ -11,18 +11,18 @@ primeiroNome = nome.split()[0]
 print(f'Ok, {primeiroNome} prazer em te conhecer')
 
 time.sleep(0.9)
-os.system('cls') or None
+os.system('clear') or None
 
 # Pergunta
 pergunta = input('Beleza! Então, qual a pergunta que você gostaria que eu respondesse ?\n')
 
-os.system('cls') or None
+os.system('clear') or None
 
 # Senha
 print('Para ter acesso, por favor digite a senha do Banco de Dados: ')
 senha = getpass.getpass('')
 
-if senha == "lucaslindo123":
+if senha == "":
     resposta = getpass.getpass('Condfirme sua senha: ')
 
     if resposta == "Google":
@@ -44,7 +44,7 @@ if senha == "lucaslindo123":
             print('PRONTO!')
             time.sleep(0.5)
 
-            os.system('cls') or None
+            os.system('clear') or None
             
             print(f'Bom {nome}, pelas minhas pesquisas, esse é o melhor link que contém a sua resposta: {i}')
             
@@ -78,7 +78,7 @@ if senha == "lucaslindo123":
         print('         FORMULANDO FRASE...')
         time.sleep(1)
 
-        os.system('cls') or None
+        os.system('clear') or None
 
         print('Falha :(')
         print('Não conseguimos encontrar nada, tente novamente mais tarde')
@@ -102,7 +102,7 @@ if senha == "lucaslindo123":
     print('PRONTO!')
     time.sleep(0.5)
 
-    os.system('cls') or None
+    os.system('clear') or None
 
     primeiroNome = nome.split()[0]
     print(f'Bom {primeiroNome}, pelas minhas pesquisas, ', end='')
