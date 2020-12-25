@@ -6,7 +6,7 @@ from googlesearch import search
 os.system('clear') or None
 
 # Conhecendo o Usuário
-nome = input('Ola, será que você poderia me dizer o seu nome completo?\n')
+nome = input('Olá, será que você poderia me dizer o seu nome completo?\n')
 primeiroNome = nome.split()[0]
 print(f'Ok, {primeiroNome} prazer em te conhecer')
 
@@ -22,8 +22,8 @@ os.system('clear') or None
 print('Para ter acesso, por favor digite a senha do Banco de Dados: ')
 senha = getpass.getpass('')
 
-if senha == "":
-    resposta = getpass.getpass('Condfirme sua senha: ')
+if senha == "lucaslindo123":
+    resposta = getpass.getpass('Confirme sua senha: ')
 
     if resposta == "Google":
         for i in search(pergunta, tld='com', num=1, stop=1, pause=1):
