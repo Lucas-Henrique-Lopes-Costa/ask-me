@@ -6,7 +6,7 @@ from googlesearch import search
 os.system('cls') or None
 
 # Conhecendo o Usuário
-nome = input('Ola, será que você poderia me dizer o seu nome completo?\n')
+nome = input('Olá, será que você poderia me dizer o seu nome completo?\n')
 primeiroNome = nome.split()[0]
 print(f'Ok, {primeiroNome} prazer em te conhecer')
 
