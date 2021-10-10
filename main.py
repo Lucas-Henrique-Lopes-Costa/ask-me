@@ -14,7 +14,8 @@ time.sleep(0.9)
 os.system('cls') or None
 
 # Pergunta
-pergunta = input('Beleza! Então, qual a pergunta que você gostaria que eu respondesse ?\n')
+pergunta = input(
+    'Beleza! Então, qual a pergunta que você gostaria que eu respondesse ?\n')
 
 os.system('cls') or None
 
@@ -45,9 +46,10 @@ if senha == "lucaslindo123":
             time.sleep(0.5)
 
             os.system('cls') or None
-            
-            print(f'Bom {nome}, pelas minhas pesquisas, esse é o melhor link que contém a sua resposta: {i}')
-            
+
+            print(
+                f'Bom {nome}, pelas minhas pesquisas, esse é o melhor link que contém a sua resposta: {i}')
+
             time.sleep(100)
             quit()
 
