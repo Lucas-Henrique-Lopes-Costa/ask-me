@@ -26,7 +26,7 @@ senha = getpass.getpass('')
 if senha == "lucaslindo123":
     resposta = getpass.getpass('Confirme sua senha: ')
 
-    if resposta == "Google":
+    if resposta == "google":
         for i in search(pergunta, tld='com', num=1, stop=1, pause=1):
             # Formulando frase
             print('')
